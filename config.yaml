@@ -1,0 +1,19 @@
+credentials:
+  usernames:
+    jsmith:
+      email: jsmith@gmail.com
+      name: John Smith
+      password: abc123 # This should be hashed
+    rbriggs:
+      email: rbriggs@gmail.com
+      name: Rebecca Briggs
+      password: def456 # This should be hashed
+cookie:
+  expiry_days: 30
+  key: random_signature_key_123
+  name: doodles_auth_cookie
+config:
+  allow_registration: true
+preauthorized:
+  emails:
+    - melsby@gmail.com 
